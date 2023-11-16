@@ -46,7 +46,7 @@ def encrypt_text(normaltext,n):
 
 normaltext = input("Enter a text")          
 # normaltext = "Ciper test text"
-n = 8
+n = int(input("Enter the shift"))
 print("Normal Text is: " + normaltext)
 print("Shifting : " + str(n))
 print("Ciper Text is: " + encrypt_text(normaltext,n))
